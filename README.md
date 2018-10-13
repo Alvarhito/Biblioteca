@@ -27,7 +27,7 @@ Autores: Con nombres de los autores.
 ![Alt text](https://github.com/Alvarhito/Biblioteca/blob/master/ImagenesReadme/Autores.png "Autores")
 
 Manejando la base de datos:
-```python
+```c#
 void sugerir(){  	
      conn = "URI=file:" + Application.dataPath + path;
      dbconn = new SqliteConnection (conn);       
@@ -53,7 +53,7 @@ Como vemos en el código, nos conectamos a la base de datos con “SqliteConnect
 ![Alt text](https://github.com/Alvarhito/Biblioteca/blob/master/ImagenesReadme/Vista.png "vista")
  
 Aplicándola de la siguiente manera:
-```php
+```c#
 using UniRx; 
 .
 .
@@ -74,7 +74,7 @@ La variable bactualiza es la referencia al botón de actualizar. Con la librerí
 
 
 El anterior código solo era para el botón se actualizar. El siguiente código muestra algo parecido pero ahora para las “x”s de cada libro, para actualizarlo individualmente:
-```php
+```c#
 void Start () {
      .
      .
