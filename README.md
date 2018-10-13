@@ -5,7 +5,7 @@ Por
 - Hugo Pérez Guerreto       - T00046710
 - Charles Acevedo Díaz      - T00039395
 
-
+# Contexto
 El programa consiste en un pequeño sistema de sugerencias de libros en donde se actualiza y se muestran diferentes sugerencias, o se actualiza individualmente, usando programación reactiva.
 Se utilizó:
 - Unity3D (Motor gráfico para videojuegos)
