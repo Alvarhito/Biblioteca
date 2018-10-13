@@ -6,11 +6,18 @@ Se utilizó:
 - SQlite (Plugin para manejar la base de datos)
 - Biblioteca.db (Bases de datos local)
 - C# (Lenguaje de programación)
+
 Base de datos:  Se creó una base de datos local con información correspondiente a los libros organizando esa información en dos tablas, Libros y Autores.
+
 Libros: Información de publicación del libro.
+
+![Alt text](https://github.com/Alvarhito/Biblioteca/blob/master/ImagenesReadme/Libro.png "Libros")
  
 Donde en el campo autor es una llave foránea de la tabla Autores
+
 Autores: Con nombres de los autores.
+![Alt text](https://github.com/Alvarhito/Biblioteca/blob/master/ImagenesReadme/Autores.png "Autores")
+
 Manejando la base de datos:
 ```php
 void sugerir(){  	
@@ -32,7 +39,10 @@ Si quieres ver el código completo entra a Biblioteca/Assets/Scripts/Sugerencias
 ```
   
 Como vemos en el código, nos conectamos a la base de datos con “SqliteConnection”, y hacemos una consulta, buscando la información de todos los libros.
-Interfaz de usuario: Esto es lo que se muestra al usuario, en los cuales hay botones (señalados en rojo), y son en los que aplicaremos la programación reactiva, y los utilizaremos como observables, que serán observado por los observadores, que en este caso son los objetos de libro (señalados en amarillo).
+
+#Interfaz de usuario: Esto es lo que se muestra al usuario, en los cuales hay botones (señalados en rojo), y son en los que aplicaremos la programación reactiva, y los utilizaremos como observables, que serán observado por los observadores, que en este caso son los objetos de libro (señalados en amarillo).
+
+![Alt text](https://github.com/Alvarhito/Biblioteca/blob/master/ImagenesReadme/Vista.png "vista")
  
 Aplicándola de la siguiente manera:
 ```php
