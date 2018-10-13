@@ -16,6 +16,7 @@ Libros: Información de publicación del libro.
 Donde en el campo autor es una llave foránea de la tabla Autores
 
 Autores: Con nombres de los autores.
+
 ![Alt text](https://github.com/Alvarhito/Biblioteca/blob/master/ImagenesReadme/Autores.png "Autores")
 
 Manejando la base de datos:
