@@ -1,11 +1,11 @@
 # Biblioteca
 Por
 
--Álvaro José Ortega Vargas - T00046501
+- Álvaro José Ortega Vargas - T00046501
 
--Charles Acevedo           - T000
+- Charles Acevedo           - T000
 
--Hugo chaves :v            - T000
+- Hugo chaves :v            - T000
 
 
 El programa consiste en un pequeño sistema de sugerencias de libros en donde se actualiza y se muestran diferentes sugerencias, o se actualiza individualmente, usando programación reactiva.
