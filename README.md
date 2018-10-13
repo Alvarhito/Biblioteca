@@ -27,7 +27,7 @@ Autores: Con nombres de los autores.
 ![Alt text](https://github.com/Alvarhito/Biblioteca/blob/master/ImagenesReadme/Autores.png "Autores")
 
 Manejando la base de datos:
-```php
+```python
 void sugerir(){  	
      conn = "URI=file:" + Application.dataPath + path;
      dbconn = new SqliteConnection (conn);       
