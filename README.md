@@ -68,7 +68,7 @@ void Start () {
 Si quieres ver el código completo entra a Biblioteca/Assets/Scripts/Sugerencias.cs 
 ```
 
-La variable bactualiza es la referencia al botón de actualizar. Con la librería de unity3D para la programación reactiva (UniRx), añadimos el botón el clic del actualizar como observable, y utilizo el operador “Subscribe”, para subscribir el observable a una función que actualizará los 5 libros sugeridos.
+La variable "bactualiza" es la referencia al botón de actualizar. Con la librería de unity3D para la programación reactiva (UniRx), añadimos el botón el clic del actualizar como observable, y utilizo el operador “Subscribe”, para subscribir el observable a una función que actualizará los 5 libros sugeridos.
 
 
 
