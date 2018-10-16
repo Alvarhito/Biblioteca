@@ -7,7 +7,7 @@ using UniRx;
 
 public class Libro : MonoBehaviour {
 	public int indexado;
-	public int id;
+	public int isbn;
 	public Image portada;
 	public Text nombre;
 	public Text autor;
@@ -20,6 +20,7 @@ public class Libro : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		controlador = GameObject.Find ("Controlador");
+
 		//eliminar.onClick.AddListener (elimina);
 		eliminar.OnClickAsObservable ().Subscribe (_ => {
 			elimina ();

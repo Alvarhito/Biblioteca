@@ -238,14 +238,14 @@
  </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="UniRx.Async.Editor.csproj">
-      <Project>{9F594D02-407A-8380-F8A5-C6099CC83D29}</Project>      <Name>UniRx.Async.Editor</Name>    </ProjectReference>
     <ProjectReference Include="UniRx.csproj">
       <Project>{B5D80305-EEC1-F40B-BA42-429EA819A397}</Project>      <Name>UniRx</Name>    </ProjectReference>
     <ProjectReference Include="UniRx.Examples.csproj">
       <Project>{DA887E84-76D8-B972-2D63-2FC6F346B8A7}</Project>      <Name>UniRx.Examples</Name>    </ProjectReference>
     <ProjectReference Include="UniRx.Async.csproj">
       <Project>{1714E601-CDE0-1E1A-229F-07DE56F97E3F}</Project>      <Name>UniRx.Async</Name>    </ProjectReference>
+    <ProjectReference Include="UniRx.Async.Editor.csproj">
+      <Project>{9F594D02-407A-8380-F8A5-C6099CC83D29}</Project>      <Name>UniRx.Async.Editor</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -23,7 +23,7 @@ public class Sugerencias : MonoBehaviour {
 	IDbConnection dbconn;
 
 	struct infoLibro{
-		public int id;
+		public int isbn;
 		public string nombre;
 		public string autor;
 		public string anio;
@@ -116,7 +116,7 @@ public class Sugerencias : MonoBehaviour {
 		}
 
 		infoLibro aux = new infoLibro ();
-		aux.id = informacion.GetInt32 (0);
+		aux.isbn = informacion.GetInt32 (0);
 		aux.nombre = informacion.GetString (1);
 		if (informacion.GetInt32 (3) > 21)
 			aux.anio = informacion.GetInt32 (3).ToString ();
@@ -162,7 +162,7 @@ public class Sugerencias : MonoBehaviour {
 		} else {
 			auxnum = new List<int> ();
 			for (int i = 0; i < ObjetoLibros.Count; i++) {
-				auxnum.Add (ObjetoLibros [i].GetComponent<Libro> ().id - 1);
+				auxnum.Add (ObjetoLibros [i].GetComponent<Libro> ().isbn - 1);
 			}
 			aux = repetido (UnityEngine.Random.Range (0, InfoLibros.Count));
 
@@ -175,13 +175,13 @@ public class Sugerencias : MonoBehaviour {
 
 	void modificarDatos(GameObject a,infoLibro b){
 		
-		a.GetComponent<Libro> ().id = b.id;
+		a.GetComponent<Libro> ().isbn = b.isbn;
 		a.GetComponent<Libro> ().nombre.text = b.nombre;
 		a.GetComponent<Libro> ().autor.text = b.autor;
 
 		a.GetComponent<Libro> ().anio.text = b.anio;
 
-		Sprite spr = Resources.Load<Sprite> ("Imagenes Libros/Libro (" + b.id + ")");
+		Sprite spr = Resources.Load<Sprite> ("Imagenes Libros/Libro (" + b.isbn + ")");
 		a.GetComponent<Libro> ().portada.sprite = spr;
 
 

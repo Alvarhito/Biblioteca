@@ -2,8 +2,8 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Libro.cs">
     <Files>
-      <File FileName="Assets\Scripts\Libro.cs" Line="13" Column="25" />
-      <File FileName="Assets\Scripts\Sugerencias.cs" Line="163" Column="68" />
+      <File FileName="Assets\Scripts\Libro.cs" Line="14" Column="19" />
+      <File FileName="Assets\Scripts\Sugerencias.cs" Line="182" Column="47" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
